@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevSync Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>DevSync Team Portfolio</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="team">
+    <h2>Meet the Team</h2>
+    <div class="card">
+      <h3>Muhammad Gulesh</h3>
+      <p>Frontend Developer</p>
+    </div>
+    <div class="card">
+      <h3>Mohd Umer</h3>
+      <p>Backend Developer</p>
+    </div>
+    <div class="card">
+      <h3>Mohd Tariq</h3>
+      <p>Backend Developer</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="http://localhost:3000/contact" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
